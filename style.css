@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  container Styling*/
+.container {
+  min-height: 100vh;
+  background-color: rgb(42, 39, 39);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* stopwatch display section */
+.clock {
+  color: white;
+  font-family: "Gill Sans";
+  font-size: 8rem;
+  padding: 3rem;
+}
+/* buttons styling */
+button {
+  cursor: pointer;
+  padding: 1.2rem;
+  width: 200px;
+  border: none;
+  border-radius: 7px;
+  background-color: white;
+  font-family: "Lucida Sans";
+  margin: 20px;
+  font-size: 1.7rem;
+  transition: 0.5s all ease-in-out;
+}
+/* Added hovering effect */
+
+#start:hover {
+  background-color: rgba(0, 128, 0, 0.669);
+  color: white;
+}
+
+#stop:hover,
+#reset:hover {
+  background-color: rgba(255, 0, 0, 0.654);
+  color: white;
+}
